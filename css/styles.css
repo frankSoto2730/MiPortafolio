@@ -1,0 +1,382 @@
+*
+{
+    margin: 0;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+a:hover{
+    background-color: rgba(247, 16, 255, 0.808);
+    font-size: 110%;
+    font-weight: bold;
+    border-radius: 10%;
+    color: darkblue;
+    
+}
+
+body{
+    background-color: rgb(9, 15, 25);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+nav
+{   
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 14%;
+    margin: 0 86%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+nav a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    Color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+img{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0;
+    width: 147px;
+    height: 122px;
+
+}
+
+#ad2{
+    padding-top: 10%;
+}
+
+section.Principal{
+    width: 100%; 
+    margin: 0%;
+    padding-top: 1px;
+background: url("../img/home.jpg");
+background-size: cover;
+height: 100%;
+background-attachment: fixed;
+}
+
+section.queSon{
+    width: 100%; 
+    margin: 0%;
+    padding-top: 10px;
+background: url("../img/background.jpg");
+background-size: cover;
+height: 100%;
+background-attachment: fixed;
+}
+
+section.uso{
+    width: 100%; 
+    margin: 0%;
+    padding-top: 10px;
+background: url("../img/background.jpg");
+background-size: cover;
+height: 100%;
+background-attachment: fixed;
+}
+
+section.invertir{
+    width: 100%; 
+    margin: 0%;
+    padding-top: 10px;
+background: url("../img/background.jpg");
+background-size: cover;
+height: 100%;
+background-attachment: fixed;
+}
+
+section.minar{
+    width: 100%; 
+    margin: 0%;
+    padding-top: 10px;
+background: url("../img/background.jpg");
+background-size: cover;
+height: 100%;
+background-attachment: fixed;
+}
+
+
+
+h2{ 
+margin-top: 30px;
+margin-left: 500px;
+    font-size: 80px;
+    width: 50%;
+    padding: 20px;
+    color: rgb(238, 215, 12);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(133, 124, 124, 0.048);
+    text-align: center;
+    height: 120px;
+}
+
+h4{ 
+    margin-top: 480px;
+    margin-left: 65%;
+        font-size: 20px;
+        width: 30%;
+        padding: 20px;
+        color: black;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+
+    h3{ 
+        margin-top: 550px;
+        margin-left: 20%;
+            font-size: 30px;
+            width: 60%;
+            padding: 20px;
+            color: white;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+    
+#ultimoTitulo
+{
+    margin-top: 100px;
+    margin-left: 45%;
+    font-size: 30px;
+    width: 35%;
+    height: 160px;
+    color: red;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#Imagen{
+    width: 100%;
+    height:550px;
+    float: left;
+    overflow: hidden;
+    opacity: 0.5;
+}
+
+a.arriba
+{
+    color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    bottom: 20px;
+    right: 3%;
+    font-size: 50px;
+}
+
+a.arriba:hover{
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#parrafoIzq
+{
+    font-size: 40px;
+    color: white;
+   
+    width: 75%;
+    margin-left: 12%;
+    background-color: rgba(0, 0, 0, 0.63);
+
+}
+
+img.Img{
+    width: 50%;
+    height: 300px;
+    border-top-left-radius: 10px;
+    float: left;
+    margin: 10px;
+
+}
+
+
+
+div.Texto p{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+h1.Titulo{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+div.Texto{
+    width: 37%;
+    margin-top: 20px;
+    float: right;
+    margin-right: 7%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.redes
+{
+    display: flex;
+    position: fixed;
+    left: 0.1%;
+    top: 93.5%;
+
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.redes a
+{
+    text-decoration: none;
+    color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 42px;
+    height: 42px;
+    padding: 8px;
+    
+    text-align: center;
+
+    border-radius: 10px;
+
+    opacity: .6;
+}
+
+.redes a.fb { background: #3b5998}
+.redes a.tw { background: #1da1f2}
+.redes a.ig { background: #E773C2}
+
+.redes a.fb:hover { opacity: 1; }
+.redes a.tw:hover {opacity: 1;}
+.redes a.ig:hover { opacity: 1;}
+
+div.izquierdo{
+    float: left;
+    width: 50%;
+}
+
+#pie_pagina{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+img.info{
+    border-radius: 100%;
+    z-index: auto;
+    opacity: 1;
+}
+
+#textoqueSon
+{
+    margin-top: 100px;
+    margin-left: 8%;
+        font-size:50px;
+        width: 85%;
+        padding: 20px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.445);
+}
+
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: rgb(0, 225, 255);
+    bottom: 40px;
+    right: 50px;
+
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+    border-radius: 10%;
+}
+
+#profile
+{
+    border-radius: 50px;
+    margin-top: 13%;
+    margin-left: 48%;
+    position: relative;
+    height: 120px;
+}
+
+#titulo
+{
+    color: rgb(255, 255, 255);
+    margin-left: 46%;
+    margin-top: 16%;
+    height: 50px;
+    font-size: 30px;
+}
+
+#paginaWeb1{
+    
+    margin-top: 5%;
+    margin-left: 23%;
+    position: relative;
+
+    height: 600px;
+    width: 1080px;
+}
+
+#textoqueSon2
+{
+    margin-top: 100px;
+    margin-left: 18%;
+        font-size:50px;
+        width: 65%;
+        padding: 20px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.445);
+}
+
+#paginaWeb2{
+    
+    margin-top: 5%;
+    margin-left: 23%;
+    position: relative;
+
+    height: 600px;
+    width: 1080px;
+}
+
+#textoqueSon3
+{
+    margin-top: 100px;
+    margin-left: 18%;
+        font-size:50px;
+        width: 69.5%;
+        padding: 20px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.445);
+}
+
+#textoqueSon4
+{
+    margin-top: 100px;
+    margin-left: 27%;
+        font-size:50px;
+        width: 46%;
+        padding: 20px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.445);
+}
